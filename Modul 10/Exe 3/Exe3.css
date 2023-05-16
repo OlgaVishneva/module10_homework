@@ -1,0 +1,25 @@
+.here_1 {
+    border: solid;
+    border-color: pink;
+    margin: 5px 10px;
+    padding: 5px 5px;
+    width: 200px;
+  }
+  .btn {
+      background: pink;
+      color: purple;
+      padding: 10px 20px;
+    }
+  p {
+    border: solid;
+    border-color: purple;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px 10px;
+    }
+  
+  .output {
+    width: 650px;
+    height: 300px;
+    overflow: auto;
+  }
