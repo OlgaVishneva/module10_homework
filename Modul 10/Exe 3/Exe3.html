@@ -1,8 +1,19 @@
-const screenWidth = window.screen.width
-         const screenHeight = window.screen.height
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <title>Chat</title>
+   <link rel="stylesheet" href="Задание 3.css">
+</head>
+<body>
+  <div>
+    <input id="input" type="text" placeholder="Здесь вводится сообщение" class="here_1">
+      <button id="send-btn" class="btn btn-send">Отправить</button>
+     <button id="geolocation" class="btn btn-geo">Геолокация</button>
+  </div>
+  <div id="output" class="here_1 output">
+  </div>
+</body>
+<script src="Задание 3(М10).js"></script>
 
-         const btn = document.querySelector('.btn');
-
-         btn.addEventListener('click', () => {
-            alert('screen Width is: ' + screenWidth + '; ' + 'screen Height is: ' + screenHeight);
-         })
+</html>
